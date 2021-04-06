@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+:root{
+    --company_dark_brown:#732D07  ;
+    --company_brown:#D35400 ;
+    --company_black:#212F3D;
+    --company_green:#28B463 ;
+    --company_grey:#808B96;
+    --company_yellow:#F1C40F;
+    --border_radius:30px;
+    --border_thickness:2px ;
+    --min_height:30px;
+    --company_blue:#AED6F1 ;
+    --company_dark_blue:#1F618D ;
+    --edward_elgar_blue:#112d53;
+    --sage_green:#489649;
+    --sage_blue:#212f96;
+    
+}
+
+h1.right{
+    color: var(--company_black);
+    text-align: right;
+    font-size: 20px;
+}
+h1.center{
+    color: var(--company_brown);
+    text-align: center;
+    font-size: 31px;
+}
+h1.green {
+    color:var(--company_brown);
+    text-align: center;
+}
+
+h2.white{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #ba112f;
+}
+
+h2.edward{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: var(--edward_elgar_blue);
+}
+h2.sage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: var(--sage_green);
+}
+h2.sub {
+    font-size: 20px;
+    text-align: center;
+    color: var(--company_black);
+    font-family: 'Roboto', sans-serif;
+}
+
+h3.sub {
+    font-size: 15px;
+    text-align: center;
+    color: var(--company_black);
+    font-family: 'Roboto', sans-serif;
+}
+
+p.header {
+    color: var(--company_dark_brown);
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+p.center {
+    color: var(--company_black);
+    text-align: center;
+}
+
+p.right {
+    color: var(--company_black);
+    text-align: right;
+}
+
+a {
+    color: var(--company_dark_blue);
+}
+
+a:hover{
+    color: var(--company_brown);
+}
+
+div.basic{
+    border-style: solid;
+    border-width: var(--border_thickness);
+    border-radius:var(--border_radius) ;
+    border-color: var(--company_grey);
+}
+
+div.cell {
+    text-align: end;
+}
+
+div.cell h1{
+    color: red;
+}
+
+table.clear{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+
+td.right{
+    align-content: right;
+    text-align: right;
+}
+
+td.center{
+   
+    align-content: center;
+    text-align: center;
+}
+
+td.top{
+   
+    vertical-align: top;
+    text-align: center;
+}
+th.center{
+    
+    text-align: center;
+    
+    
+}
+
+hr.small_thick{
+    dsfalign-content: center;
+    fghalign-self: center;
+    height: 2px;
+    border-radius: 20px;
+    border-width: 0px;
+    border-color: green;
+    background-color : var(--company_dark_brown);
+    width: 50px;
+    
+}
+
+img.small{
+    max-height: 90px;
+    max-width: 90px;
+    align-self: center;
+}
+
+h3.red{
+    color: red;
+    text-align: center;
+}

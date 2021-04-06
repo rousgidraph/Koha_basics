@@ -1,0 +1,5 @@
+copy the file to the images folder 
+:scp logo_krc_square.png  bond@192.168.1.13:/home/bond/images
+
+ssh into the machine and move the file to the httpdocs folder
+:sudo cp logo_krc_square.png /usr/share/koha/opac/htdocs
