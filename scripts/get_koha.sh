@@ -101,3 +101,7 @@ fi
 #open the designated ip adress and usthese credentials 
 echo "Credentials"
 sudo xmlstarlet sel -t -v 'yazgfs/config/pass' /etc/koha/sites/library/koha-conf.xml;echo
+
+echo "*********************************************************"
+echo "              my work here is done                       "
+echo "*********************************************************"
